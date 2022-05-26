@@ -129,7 +129,8 @@ if (hasGetUserMedia()) {
 // Enable the live webcam view and start classification.
 function enableCam(event) {
     if (!model) {
-        console.log('Wait! Model not loaded yet.')
+        //CHANGED CONSOLE.LOG TO ALERT SO THE USER KNOWS WHATS HAPPENING
+        alert('Wait! Model not loaded yet.')
         return;
     }
 
