@@ -75,7 +75,7 @@ footer {
 .classifyOnClick {
     position: relative;
     float: left;
-    width: 48%;
+    width: 20vw;
     margin: 2% 1%;
     cursor: pointer;
 }
