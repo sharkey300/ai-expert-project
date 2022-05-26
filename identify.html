@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experimental</title>
+    <title>Identify</title>
     <link rel="stylesheet" href="./stolen-code.css">
 </head>
 
 <body>
+    <!-- Yes, this is a terrible implementation. I am literally just copying the js and css from someone else, and taking the bit of html that does the thing I want it to do. -->
+    <a href="./index.html">
+        <div style="position:absolute; top:0; left:0; height:50px; width: 100vw; background-color:#b2b2b2; text-align:center; line-height:50px; color:black">Click to return to presentation</div>
+    </a>
+    <div style="height:15px"></div>
     <p>Wait a bit, then click the button. Make sure the webpage has camera permissions! The webcam might be too big, zoom out (with <strong>ctrl</strong> + <strong>-</strong>) to see the full webcam.</p>
     <p class="note" style="font-size:75%">Code taken from <a href="https://twitter.com/jason_mayes">Jason Mayes</a> under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>. Click <a href="https://tensorflow-js-object-detection.glitch.me/">here</a> for the original
-        demo.</p>
+        demo.
+    </p>
     <div id="liveView" class="videoView">
         <button id="webcamButton">Enable Webcam</button>
         <video id="webcam" autoplay=""></video>
