@@ -23,7 +23,7 @@
  * LinkedIn: https://www.linkedin.com/in/creativetech
  ********************************************************************/
 
-const demosSection = document.getElementById('demos');
+const demosSection = document.getElementById('webcamButton'); //ID CHANGED FROM demos TO webcamButton
 
 var model = undefined;
 
